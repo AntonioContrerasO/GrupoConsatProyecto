@@ -13,7 +13,9 @@ const contenido = [
     date: "19 Mazo 2018",
     content:"Estudio de estructuras geológicas mediante la aplicación de metodologías de geología estructural mediante la elaboración de mapas geológicos y temas relacionados."
     ,isImage:true,
-    imgURL:"MapaGeologicoSIG.png"
+    imgURL:"MapaGeologicoSIG.png",
+    isFile:true,
+    archivoPDF:"GRUPOCONSAT-ORGANIGRAMAGENERAL.pdf"
   },{
     id:3,
     title: "Prueba Video",
@@ -52,7 +54,7 @@ function Texto(props){
           <p className="u-text u-text-2">{props.content}<br/>
           </p>
           {props.isMap === true ? <Button url={props.urlMap} text={"Ver en pantalla completa"}/>:null}
-          {props.archivoPDF !== null ? <Button url={"files/"+props.archivoPDF} text={"Consultar archivo"}/>:null}
+          {props.isFile === true ? <Button url={"files/"+props.archivoPDF} text={"Consultar archivo"}/>:null}
         </div>
       </div>
     </div>
@@ -121,6 +123,7 @@ ReactDOM.render( <div className="u-gutter-0 u-layout">
       content={post.content}
       isMap={post.isMap}
       urlMap={post.urlMap}
+      isFile={post.isFile}
       archivoPDF={post.archivoPDF}
       />
       </div>)
