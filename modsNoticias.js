@@ -51,7 +51,8 @@ function Texto(props){
             <h4 className="u-heading-font u-text u-text-grey u-text-4">{props.date}</h4>
           <p className="u-text u-text-2">{props.content}<br/>
           </p>
-          {props.isMap === true ? <Button url={props.urlMap}/>:null}
+          {props.isMap === true ? <Button url={props.urlMap} text={"Ver en pantalla completa"}/>:null}
+          {props.archivoPDF !== null ? <Button url={"files/"+props.archivoPDF} text={"Consultar archivo"}/>:null}
         </div>
       </div>
     </div>
@@ -61,7 +62,7 @@ function Texto(props){
 function Button(props){
   return(
     <h5><a className="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-2 u-text-hover-custom-color-1 u-block-control u-block-6715-16"
-    style={{backgroundImage: "none", padding:"0px"}} href={props.url}>​Ver en pantalla completa</a></h5>
+    style={{backgroundImage: "none", padding:"0px"}} href={props.url}>​{props.text}</a></h5>
         )
 }
 
@@ -120,6 +121,7 @@ ReactDOM.render( <div className="u-gutter-0 u-layout">
       content={post.content}
       isMap={post.isMap}
       urlMap={post.urlMap}
+      archivoPDF={post.archivoPDF}
       />
       </div>)
   })}
