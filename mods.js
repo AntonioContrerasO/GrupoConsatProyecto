@@ -35,7 +35,7 @@ function EditableBLock(props){
       <h3 className="u-heading-font u-text u-text-3">{props.title}</h3>
       <h4 className="u-heading-font u-text u-text-grey u-text-4">{props.date}</h4>
       <p className="u-text u-text-font u-text-5">{props.content}</p>
-      <a href="#" className="u-border-1 u-custom u-link u-text-black u-link-1">Leer más</a>
+      <a href="Noticias.html" className="u-border-1 u-custom u-link u-text-black u-link-1">Leer más</a>
     </div>
   </div>)
 }
