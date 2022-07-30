@@ -1,0 +1,22 @@
+{
+  "name": "grupoconsatproyecto",
+  "version": "1.0.0",
+  "description": "En este link se puede acceder\r https://antoniocontreraso.github.io/GrupoConsatProyecto/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioContrerasO/GrupoConsatProyecto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioContrerasO/GrupoConsatProyecto/issues"
+  },
+  "homepage": "https://github.com/AntonioContrerasO/GrupoConsatProyecto#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
