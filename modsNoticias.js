@@ -54,7 +54,7 @@ function Texto(props){
           <p className="u-text u-text-2">{props.content}<br/>
           </p>
           {props.isMap === true ? <Button url={props.urlMap} text={"Ver en pantalla completa"}/>:null}
-          {props.isFile === true ? <Button url={"files/"+props.archivoPDF} text={"Consultar archivo"}/>:null}
+          {props.isFile === true ? <Button url={"files/"+props.archivoPDF} text={"Consultar archivos"}/>:null}
         </div>
       </div>
     </div>
