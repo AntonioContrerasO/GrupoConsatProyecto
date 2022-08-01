@@ -111,77 +111,66 @@
 }
 
 @media (max-width: 1399px) {
-   .u-section-2 {
-    min-height: 480px;
-  }
-
   .u-section-2 .u-btn-1 {
-    margin-top: 389px;
-    margin-right: calc(((100% - 1140px) / 2) + 271px);
+    margin-top: 75px;
+    margin-right: calc(((100% - 1140px) / 2) + 275px);
   }
 
   .u-section-2 .u-btn-2 {
-    margin-right: calc(((100% - 1140px) / 2));
-    margin-bottom: 59px;
+    margin-top: -49px;
+    margin-right: calc(((100% - 1140px) / 2) + 17px);
   }
 }
 
 @media (max-width: 1199px) {
-   .u-section-2 {
-    min-height: 580px;
-  }
-
   .u-section-2 .u-btn-1 {
-    margin-top: 481px;
-    margin-right: calc(((100% - 940px) / 2) + 270px);
+    margin-top: 78px;
+    margin-right: calc(((100% - 940px) / 2) + 307px);
   }
 
   .u-section-2 .u-btn-2 {
-    margin-right: calc(((100% - 940px) / 2));
-    margin-bottom: 60px;
+    margin-right: calc(((100% - 940px) / 2) + 44px);
   }
 }
 
 @media (max-width: 991px) {
-   .u-section-2 {
-    min-height: 623px;
-  }
-
   .u-section-2 .u-btn-1 {
-    margin-top: 518px;
-    margin-right: auto;
-    margin-left: calc(((100% - 720px) / 2) + 227px);
+    margin-top: 39px;
+    margin-right: calc(((100% - 720px) / 2) + 26px);
   }
 
   .u-section-2 .u-btn-2 {
-    margin-right: calc(((100% - 720px) / 2));
+    margin-top: 23px;
+    margin-right: calc(((100% - 720px) / 2) + 25px);
+    margin-bottom: 39px;
   }
 }
 
 @media (max-width: 767px) {
-   .u-section-2 {
-    min-height: 580px;
-  }
-
   .u-section-2 .u-btn-1 {
-    margin-top: 497px;
-    margin-left: calc(((100% - 540px) / 2) + 14px);
+    margin-top: 104px;
+    margin-right: 50px;
+    margin-left: 357px;
   }
 
   .u-section-2 .u-btn-2 {
+    margin-top: -115px;
     margin-right: calc(((100% - 540px) / 2));
+    margin-bottom: 60px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-btn-1 {
-    margin-top: 472px;
+    margin-top: 102px;
     margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-2 .u-btn-2 {
-    margin-top: -130px;
+    margin-top: -117px;
     margin-right: auto;
+    margin-bottom: 0;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 314px;
