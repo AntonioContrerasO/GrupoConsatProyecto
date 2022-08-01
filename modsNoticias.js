@@ -87,7 +87,7 @@ function Video(props){
     <div className="u-size-30 u-size-60-md u-layout-cell u-container-style u-block-control ui-draggable ui-droppable u-block-6715-4" style={{minHeight: "277px"}}>
       <div className="u-container-layout u-block-6715-5" style={{padding:"0,0,0,0"}}>
         <div className="u-custom-html u-clearfix u-block-control u-block-6715-6" style={{height: "100%", width: "100%" ,margin:"0"}}>
-        <iframe width="100%" height="524" src={https://www.youtube.com/embed/+props.urlVideo+"?mute=0&amp;showinfo=1&amp;controls=1&amp;start=0&amp;"} frameborder="0" allowfullscreen="1"></iframe></div>
+        <iframe width="100%" height="524" src={"https://www.youtube.com/embed/"+props.urlVideo+"?mute=0&amp;showinfo=1&amp;controls=1&amp;start=0&amp;"} frameborder="0" allowfullscreen="1"></iframe></div>
       </div>
     </div>
     )
