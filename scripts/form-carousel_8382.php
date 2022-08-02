@@ -51,10 +51,10 @@ $form = array(
     'select' => array(
     'order' => 5,
     'type' => 'string',
-    'label' => 'Selecciona el servicio',
-    'required' => false,
+    'label' => 'Presione la etiqueta para ver seleccionar un servicio',
+    'required' => true,
     'errors' => array(
-    'required' => 'Field \'Selecciona el servicio\' is required.'
+    'required' => 'Field \'Presione la etiqueta para ver seleccionar un servicio\' is required.'
     )
     ),
     'message' => array(
